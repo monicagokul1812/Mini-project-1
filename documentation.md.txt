@@ -1,0 +1,54 @@
+ Global Seismic Trends: Data-Driven Earthquake Insights
+
+1. Project Overview
+This project analyzes global earthquake data collected from the USGS Earthquake API to identify seismic patterns, trends, and high-risk regions. The objective is to support disaster management and decision-making using data-driven insights and interactive visualization.
+
+
+
+2. Dataset Description
+The dataset contains global earthquake records from the past five years with 26 features, including magnitude, depth, time, location, reporting network, and quality metrics. Derived columns such as year and country were created for analysis and visualization.
+
+
+
+3. Streamlit Dashboard Overview
+An interactive Streamlit dashboard was developed to explore earthquake data dynamically. The dashboard enables users to filter seismic events and observe real-time updates in metrics and visualizations.
+
+
+
+4. Dashboard Features
+*Sidebar Filters: Filter earthquakes by year, country, and magnitude range.
+*Filtered Data Table: Displays earthquake records based on selected filters.
+*Key Metrics (KPIs):
+  - Total number of earthquakes
+  - Maximum magnitude
+  - Average depth (km)
+*Interactive Charts:
+  - Earthquakes per year
+  - Magnitude distribution
+
+
+5. Analysis Performed
+- Temporal analysis of earthquake occurrences across years.
+- Magnitude-based analysis to identify strong seismic events.
+- Depth analysis to compare shallow and deep earthquakes.
+- Regional analysis using country-based filtering.
+
+
+6. Key Insights & Observations
+- Shallow earthquakes occur more frequently than deep-focus earthquakes.
+- High-magnitude earthquakes are concentrated near tectonic plate boundaries.
+- Certain years show increased seismic activity, indicating tectonic stress.
+- Earthquake depth and magnitude patterns vary across regions.
+
+
+7. Tools & Technologies Used
+- Python (Pandas, Regex)
+- MySQL
+- Streamlit
+- Matplotlib
+- USGS Earthquake API
+- VS Code
+
+
+8. Conclusion
+This project demonstrates the effectiveness of combining data analytics, SQL, and interactive dashboards to analyze global seismic trends. The Streamlit dashboard provides an intuitive platform for exploring earthquake data and deriving actionable insights.
